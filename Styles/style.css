@@ -148,3 +148,17 @@ main{
     color:#474747;
     font-weight: 600;
 }
+/* Skillset Styles */
+.skill-cards{
+    display: flex;
+    gap: 24px;
+}
+.skill-card{
+    padding:30px 33px 30px 30px;
+}
+.skill-title{
+
+}
+.skill-desc{
+
+}
