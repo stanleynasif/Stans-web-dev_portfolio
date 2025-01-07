@@ -1,1 +1,23 @@
+/* fonts details */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+/* shared style*/
+.text-primary{
+    color: #FD6E0A;
+}
 /* Nav Styles */
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+
+}
