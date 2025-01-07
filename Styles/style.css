@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* fonts details */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -21,7 +25,16 @@
     padding: 18px 35px  ;
     border-radius: 5px;
     font-size: 1.25rem;
-    border-color: none;
+    border: none;
+}
+.btn-secondary{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    padding: 18px 35px  ;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    border: 1px solid #FD6E0A
+    ;
 }
 /* Nav Styles */
 nav{
@@ -45,5 +58,4 @@ nav ul li{
 }
 nav li a{
     text-decoration: none;
-
 }
