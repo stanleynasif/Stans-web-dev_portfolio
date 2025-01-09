@@ -152,7 +152,6 @@ main section{
 .item-desc{
     font-size: 20px;
     color:#474747;
-    font-weight: 600;
 }
 /* Skillset Styles */
 .skillset > .skill-div > .section-description{
@@ -175,4 +174,56 @@ main section{
 .skill-desc{
     font-size: 16px;
     color:#474747;
+}
+/* Resume Styles */
+.Q1{
+    display: flex;
+}
+.cardheading{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    padding: 113px 0 30px 0;
+
+}
+.resumehead{
+    font-weight:bold ;
+    font-size: 25px;
+    color: #474747;
+
+}
+.ritem-title{
+    font-weight:600;
+    font-size: 20px;
+    color: #757575;
+    padding: 10px 0 20px 0;
+}
+.ritem-desc{
+    color:#757575 ;
+    box-shadow: 0px 1px 0 0;
+}
+.R1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume{
+    padding: 0 48px 30px 0;
+}
+.B1{
+    padding-top: 30px;
+}
+/* Footer Styles */
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#mbox{
+    height: 160px;
+    width: 460px;
+    text-align: top left;
+}
+.footer{
+    display: flex;
+    
 }
