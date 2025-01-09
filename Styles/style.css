@@ -224,9 +224,6 @@ hr{
     margin-bottom: 30px;
 }
 /* Footer Styles */
-footer{
-    
-}
 #mbox{
     height: 160px;
     width: 460px;
@@ -274,4 +271,9 @@ input:hover{
 ::placeholder{
     font-size: 20px;
     color: #757575;
+}
+textarea{
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', system-ui, 'Helvetica Neue', sans-serif
 }
