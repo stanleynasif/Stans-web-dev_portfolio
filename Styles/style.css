@@ -63,7 +63,9 @@ header{
 .text-center{
     text-align: center;
 }
-
+button:hover{
+    box-shadow: 1px 1px 30px 0px #ffb682;
+}
 /* Nav & Hero */
 .NavnHero{
     display: flex;
@@ -166,6 +168,11 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 20px 50px 0px hsl(0, 0%, 80%);
 }
+.skill-card:hover{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
 .skill-title{
     margin: 30px 0 20px 0;
     font-weight: bold;
@@ -200,7 +207,6 @@ main section{
 }
 .ritem-desc{
     color:#757575 ;
-    box-shadow: 0px 1px 0 0;
 }
 .R1{
     display: flex;
@@ -212,6 +218,10 @@ main section{
 }
 .B1{
     padding-top: 30px;
+}
+hr{
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 /* Footer Styles */
 footer{
@@ -249,4 +259,7 @@ input{
     padding: 18px 30px;
     border-radius: 5px;
     border-style: none;
+}
+input:hover{
+    box-shadow: 10px 10px 50px 1px #757575;
 }
