@@ -215,15 +215,32 @@ main section{
 }
 /* Footer Styles */
 footer{
-    max-width: 1140px;
-    margin: 0 auto;
+    
 }
 #mbox{
     height: 160px;
     width: 460px;
-    text-align: top left;
 }
 .footer{
     display: flex;
-    
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+.F1{
+    margin-right: 117px;
+}
+.F12{
+    margin-right: 48;
+    padding:20px 0 28px 0;
+}
+.FM1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:start;
+}
+input::placeholder{
+    text-align: left;
+    padding: 18px;
 }
