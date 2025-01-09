@@ -250,7 +250,7 @@ footer{
     gap: 20px;
     align-items:start;
 }
-input::placeholder{
+textarea::placeholder,input::placeholder{
     position: absolute;
     left: 30px;
     top: 18px;
@@ -262,4 +262,16 @@ input{
 }
 input:hover{
     box-shadow: 10px 10px 50px 1px #757575;
+}
+.C1{
+    padding: 20px 20px 20px 0px;
+}
+.social-icon{
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+::placeholder{
+    font-size: 20px;
+    color: #757575;
 }
