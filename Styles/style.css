@@ -241,6 +241,12 @@ footer{
     align-items:start;
 }
 input::placeholder{
-    text-align: left;
-    padding: 18px;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+}
+input{
+    padding: 18px 30px;
+    border-radius: 5px;
+    border-style: none;
 }
